@@ -1,0 +1,26 @@
+extVirtualLinks:
+    - {id: mgmt-net, resourceId: 7aa2df0f-c223-414e-8947-ea557166a97d, extCps: [{cpdId: ns_mgmt_ext}, {cpdId: bono_mgmt_ext}, {cpdId: ralf_mgmt_ext}, {cpdId: ellis_mgmt_ext}, {cpdId: stress_mgmt_ext}, {cpdId: homestead_mgmt_ext}, {cpdId: sprout_mgmt_ext}, {cpdId: homer_mgmt_ext}]}
+vimConnectionInfo:
+    - {accessInfo: {tenant: 9adb323da00048b7a4298c005db87320}, vimId: 512d1114-770e-4d4f-a34c-96877374d907}
+additionalParams:
+    floating_network_id: 86c0884b-35ec-4acc-80ea-c180aa3a9df1
+    repo_url: 'http://10.101.86.41/repo.cw-ngv.com/'
+    snmp_allowed_src: 0.0.0.0/0
+    repo_version: archive/repo118
+    keypair_name: dev_team_key
+    zone_name: dev-vims.com
+    number_count: '100'
+    signup_key: vims
+    number_start_sequence: '10000'
+    sign_subnet_ip_version: '4'
+    test_clients_count: '5000'
+    snmp_ro_community: Oopheghae6Wohv8wahpo
+    ns_01: 10.112.1.1
+    zone_secret: M6wx7acatsdEsaTFpLrpjA==
+    snmp_listener_ip: 10.234.30.14
+    ntp_server: 10.112.1.2
+    ns_02: 10.112.1.2
+    Internal_VL_subnet_address: 192.168.12.0/24
+flavourId: default
+instantiationLevelId: InstantiationLevel1
+shared: false
